@@ -187,7 +187,7 @@ var SubHeader = (function (_super) {
         _super.apply(this, arguments);
     }
     SubHeader.prototype.render = function () {
-        return (React.createElement("div", {"className": "sub-header"}, React.createElement("a", {"href": "/", "className": "nelogo"}), React.createElement("a", {"className": "link"})));
+        return (React.createElement("div", {"className": "sub-header"}, React.createElement("a", {"href": "/ReactNews/", "className": "nelogo"}), React.createElement("a", {"className": "link"})));
     };
     return SubHeader;
 })(Component);
