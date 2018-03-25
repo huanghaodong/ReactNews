@@ -5,14 +5,14 @@
 		{
 			"id": 1,
 			"title": "联赛杯决赛-正播红军0-0曼城",
-			"img": "/img/01.jpeg",
+			"img": "img/01.jpeg",
 			"source":"新华网",
 			"comment": 178
 		},
 		{
 			"id": 2,
 			"title": "英超-曼联3-2枪手 妖星造3球",
-			"img": "/img/02.jpeg",
+			"img": "img/02.jpeg",
 			"source":"新华网",
 			"comment": 2431
 		},
@@ -20,7 +20,7 @@
 		{
 			"id": 3,
 			"title": "红魔超新星出世 两连击封神",
-			"img": "/img/03.jpeg",
+			"img": "img/03.jpeg",
 			"source":"新华网",
 			"comment": 37
 		},
@@ -28,7 +28,7 @@
 		{
 			"id": 4,
 			"title": "300斤壮汉抢断 罚球线前暴扣",
-			"img": "/img/04.jpeg",
+			"img": "img/04.jpeg",
 			"source":"新华网",
 			"comment": 773
 		}
@@ -38,7 +38,7 @@
 		{
 			"id": 5,
 			"title": "哈达迪疯狂38+21 四川2-0新疆",
-			"img": "/img/05.jpeg",
+			"img": "img/05.jpeg",
 			"source":"新华网",
 			"comment": 7804
 		},
@@ -46,7 +46,7 @@
 		{
 			"id": 6,
 			"title": "恶习难改？西热使坏瞒过裁判",
-			"img": "/img/06.jpeg",
+			"img": "img/06.jpeg",
 			"source":"新华网",
 			"comment": 1431
 		},
@@ -54,7 +54,7 @@
 		{
 			"id": 7,
 			"title": "广东新疆危险 0-2落后无逆转",
-			"img": "/img/07.jpeg",
+			"img": "img/07.jpeg",
 			"source":"新华网",
 			"comment": 1353
 		},
@@ -62,7 +62,7 @@
 		{
 			"id": 8,
 			"title": "8:00视频直播2场NBA比赛",
-			"img": "/img/08.jpeg",
+			"img": "img/08.jpeg",
 			"source":"新华网",
 			"comment": 13
 		},
@@ -70,7 +70,7 @@
 		{
 			"id": 9,
 			"title": "专访佩兰：随时准备重返中国",
-			"img": "/img/09.jpeg",
+			"img": "img/09.jpeg",
 			"source":"新华网",
 			"comment": 499
 		},
@@ -78,21 +78,21 @@
 		{
 			"id": 10,
 			"title": "德甲-正直播多特vs霍芬海姆",
-			"img": "/img/10.jpeg",
+			"img": "img/10.jpeg",
 			"source":"新华网",
 			"comment": 52
 		},
 		{
 			"id": 1,
 			"title": "联赛杯决赛-正播红军0-0曼城",
-			"img": "/img/01.jpeg",
+			"img": "img/01.jpeg",
 			"source":"新华网",
 			"comment": 178
 		},
 		{
 			"id": 2,
 			"title": "英超-曼联3-2枪手 妖星造3球",
-			"img": "/img/02.jpeg",
+			"img": "img/02.jpeg",
 			"source":"新华网",
 			"comment": 2431
 		},
@@ -100,7 +100,7 @@
 		{
 			"id": 3,
 			"title": "红魔超新星出世 两连击封神",
-			"img": "/img/03.jpeg",
+			"img": "img/03.jpeg",
 			"source":"新华网",
 			"comment": 37
 		},
@@ -108,7 +108,7 @@
 		{
 			"id": 4,
 			"title": "300斤壮汉抢断 罚球线前暴扣",
-			"img": "/img/04.jpeg",
+			"img": "img/04.jpeg",
 			"source":"新华网",
 			"comment": 773
 		}
