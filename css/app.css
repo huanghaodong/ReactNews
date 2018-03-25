@@ -1,0 +1,388 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.clearfix::after {
+  display: block;
+  content: '';
+  clear: both;
+}
+html,
+body {
+  background: #F2F2F2;
+}
+a {
+  text-decoration: none;
+  color: #2b2b2b;
+  font-size: 18px;
+}
+.header {
+  height: 44px;
+  background: #ffffff url('/img/logo.png') no-repeat center;
+  background-size: 120px 25px;
+  padding: 0 13px;
+  overflow: hidden;
+}
+.header a {
+  margin-top: 13px;
+}
+.header .login {
+  float: left;
+  width: 20px;
+  height: 20px;
+  background: url('/img/login.png') no-repeat;
+  background-size: cover;
+}
+.header .load {
+  float: right;
+  width: 23px;
+  height: 18px;
+  background: url('/img/load.png') no-repeat;
+  background-size: 77%;
+  margin-right: 13px;
+}
+.header .message {
+  float: right;
+  width: 23px;
+  height: 18px;
+  background: url('/img/message.png') no-repeat;
+  background-size: cover;
+}
+.sub-header {
+  position: fixed;
+  z-index: 2;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: #f33;
+  overflow: hidden;
+}
+.sub-header .arrow {
+  float: left;
+  height: 49px;
+  width: 67px;
+  border-right: 1px solid #c00;
+}
+.sub-header .arrow i {
+  font-size: 0;
+  border: 15px solid transparent;
+  border-right: 15px solid #fff;
+  margin-top: 15px;
+  position: relative;
+  top: 8px;
+  left: 10px;
+}
+.sub-header .nelogo {
+  float: left;
+  height: 49px;
+  width: 67px;
+  border-right: 1px solid #c00;
+  background: url('/img/nelogo.png') no-repeat center;
+  background-size: contain;
+}
+.sub-header .link {
+  float: right;
+  width: 20px;
+  height: 22px;
+  background: url('/img/link.png') no-repeat;
+  background-size: contain;
+  margin-top: 12px;
+  margin-right: 15px;
+}
+.home .list {
+  padding: 0 13px;
+}
+.home .list li a {
+  display: block;
+  padding: 13px 0;
+  height: 75px;
+}
+.home .list li a .img-span {
+  float: left;
+  width: 114px;
+  height: 75px;
+  overflow: hidden;
+}
+.home .list li a .img-span img {
+  width: 100%;
+}
+.home .list li a div {
+  margin-left: 126px;
+  height: 100%;
+  position: relative;
+}
+.home .list li a div span {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  font-size: 14px;
+  color: #a4a4a4;
+}
+.home .list li a div .eyes {
+  left: auto;
+  right: 20px;
+  padding-left: 22px;
+  background: url('/img/eyes.png') no-repeat;
+}
+.home #banner {
+  height: 200px;
+  overflow: hidden;
+  position: relative;
+}
+.home #banner ul {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 200px;
+  width: 100%;
+}
+.home #banner ul li {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 200px;
+  width: 100%;
+}
+.home #banner ul li img {
+  width: 100%;
+  height: 100%;
+}
+.home #banner ul li p {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.7);
+  color: #fff;
+  text-align: center;
+  height: 30px;
+  line-height: 30px;
+}
+.detail {
+  margin-top: 49px;
+  color: #2b2b2b;
+}
+.detail .title {
+  padding: 30px 13px;
+}
+.detail .title h1 {
+  font-size: 26px;
+  margin-bottom: 16px;
+}
+.detail .title span {
+  float: left;
+  font-size: 14px;
+  color: #a4a4a4;
+}
+.detail .title .time {
+  float: right;
+}
+.detail .big-img {
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+}
+.detail .big-img img {
+  width: 100%;
+}
+.detail .content {
+  padding: 30px 13px;
+  font-size: 18px;
+  line-height: 28px;
+}
+.detail .auther {
+  display: block;
+  margin-bottom: 30px;
+  padding: 0 13px;
+  text-align: right;
+  color: #a4a4a4;
+}
+.detail .share {
+  padding: 10px 13px 30px;
+}
+.detail .share span {
+  float: left;
+  width: 42px;
+  height: 43px;
+  line-height: 43px;
+  color: #a4a4a4;
+  font-size: 14px;
+}
+.detail .share div.share-to {
+  margin-left: 52px;
+}
+.detail .share div.share-to a {
+  display: inline-block;
+  font-size: 0;
+  width: 20%;
+  height: 42px;
+  text-align: center;
+}
+.detail .share div.share-to a img {
+  width: 42px;
+  height: 42px;
+}
+.detail .cmt {
+  padding: 30px 13px;
+}
+.detail .cmt .cmt-title {
+  padding-top: 30px;
+}
+.detail .cmt .cmt-title .line {
+  height: 1px;
+  background: #d7d7d7;
+}
+.detail .cmt .cmt-title span {
+  display: inline-block;
+  padding-right: 20px;
+  color: #858585;
+  font-size: 17px;
+  position: relative;
+  top: -12px;
+  background: #F2F2F2;
+}
+.detail .cmt .cmt-list li {
+  padding-top: 20px;
+  margin-bottom: 20px;
+  position: relative;
+}
+.detail .cmt .cmt-list li span {
+  font-size: 14px;
+  color: #a4a4a4;
+  height: 18px;
+  line-height: 18px;
+}
+.detail .cmt .cmt-list li .user {
+  float: left;
+  padding-left: 18px;
+  background: url("/img/user.png") no-repeat left top;
+  background-size: 18px;
+  width: 120px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.detail .cmt .cmt-list li .time {
+  float: left;
+  margin-left: 10px;
+}
+.detail .cmt .cmt-list li .heart {
+  float: right;
+  padding-right: 25px;
+  background: url("/img/heart.png") no-repeat right top;
+  background-size: 18px;
+}
+.detail .cmt .cmt-list li p {
+  padding-top: 30px;
+  color: #000;
+  line-height: 20px;
+}
+.detail .cmt .cmt-more {
+  margin: 0 auto;
+  margin-top: 40px;
+  width: 80%;
+  border-radius: 5px;
+  background: #fff;
+  border: 1px solid #a4a4a4;
+  height: 60px;
+  line-height: 60px;
+  color: #2b2b2b;
+  font-size: 20px;
+  text-align: center;
+}
+.comment {
+  margin-top: 49px;
+  padding: 30px 13px;
+}
+.comment .cmt-title {
+  padding-top: 30px;
+}
+.comment .cmt-title .line {
+  height: 1px;
+  background: #d7d7d7;
+}
+.comment .cmt-title span {
+  display: inline-block;
+  padding-right: 20px;
+  color: #858585;
+  font-size: 17px;
+  position: relative;
+  top: -12px;
+  background: #F2F2F2;
+}
+.comment .cmt-list li {
+  padding-top: 20px;
+  margin-bottom: 20px;
+  position: relative;
+}
+.comment .cmt-list li span {
+  font-size: 14px;
+  color: #a4a4a4;
+  height: 18px;
+  line-height: 18px;
+}
+.comment .cmt-list li .user {
+  float: left;
+  padding-left: 18px;
+  background: url("/img/user.png") no-repeat left top;
+  background-size: 18px;
+  width: 120px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.comment .cmt-list li .time {
+  float: left;
+  margin-left: 10px;
+}
+.comment .cmt-list li .heart {
+  float: right;
+  padding-right: 25px;
+  background: url("/img/heart.png") no-repeat right top;
+  background-size: 18px;
+}
+.comment .cmt-list li p {
+  padding-top: 30px;
+  color: #000;
+  line-height: 20px;
+}
+.comment .cmt-more {
+  margin: 0 auto;
+  margin-top: 40px;
+  width: 80%;
+  border-radius: 5px;
+  background: #fff;
+  border: 1px solid #a4a4a4;
+  height: 60px;
+  line-height: 60px;
+  color: #2b2b2b;
+  font-size: 20px;
+  text-align: center;
+}
+.comment .comment-box textarea {
+  display: block;
+  box-sizing: border-box;
+  width: 80%;
+  padding: 20px;
+  height: 200px;
+  margin: 0 auto;
+  border-radius: 5px;
+  background: #fff;
+  border: 1px solid #a4a4a4;
+  font-size: 18px;
+}
+.comment .comment-box button {
+  display: block;
+  margin: 0 auto;
+  margin-top: 40px;
+  width: 80%;
+  border-radius: 5px;
+  background: #fff;
+  border: 1px solid #a4a4a4;
+  height: 60px;
+  line-height: 60px;
+  color: #2b2b2b;
+  font-size: 20px;
+  text-align: center;
+}
